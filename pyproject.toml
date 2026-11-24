@@ -1,0 +1,1 @@
+[System.IO.File]::WriteAllText("$PWD\pyproject.toml", "[tool.vercel]`nentrypoint = `"backend.main:app`"`n")
